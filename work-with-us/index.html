@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Work with Digital Native | AI process intake</title>
+    <meta name="description" content="Tell Digital Native about the workflow you want to make dependable with AI-supported operations and human oversight.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/landing.css">
+  </head>
+  <body>
+    <div class="site-shell">
+      <nav class="nav" aria-label="Main navigation">
+        <div class="nav__inner">
+          <a class="brand" href="../" aria-label="Digital Native home">
+            <span class="brand__mark">DN</span>
+            <span>Digital Native</span>
+          </a>
+          <div class="nav__links">
+            <a href="../#workflows">Workflows</a>
+            <a href="../#pricing">Pricing</a>
+            <a href="../#engagement">Engagement</a>
+            <a class="pill" href="./">Work with us</a>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <section class="intake-hero" aria-labelledby="intake-title">
+          <div class="intake-hero__inner">
+            <div class="intake-copy">
+              <p class="eyebrow">Work with Digital Native</p>
+              <h1 id="intake-title">Tell me about the workflow you want to make dependable.</h1>
+              <p>
+                Share the process, tools, and business context. I will review it and follow up with a practical next step for building a managed AI workflow with human oversight.
+              </p>
+              <div class="intake-notes" aria-label="What to expect">
+                <div>
+                  <span class="number">01</span>
+                  <p>Start with one process that is valuable enough to improve and constrained enough to manage well.</p>
+                </div>
+                <div>
+                  <span class="number">02</span>
+                  <p>Your organization keeps ownership of tool accounts, AI compute, and operating assets.</p>
+                </div>
+                <div>
+                  <span class="number">03</span>
+                  <p>The current management retainer is $800 per month once we decide there is a fit.</p>
+                </div>
+              </div>
+            </div>
+
+            <form class="intake-form" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="16bf1070-d0a0-4836-ac46-70ffd44ca0ea">
+              <input type="hidden" name="subject" value="New Digital Native work-with-us intake">
+              <input type="hidden" name="from_name" value="Digital Native Website">
+              <input type="checkbox" name="botcheck" class="botcheck" tabindex="-1" autocomplete="off">
+
+              <div class="field-grid">
+                <label class="field">
+                  <span>Name</span>
+                  <input type="text" name="name" autocomplete="name" required>
+                </label>
+
+                <label class="field">
+                  <span>Email</span>
+                  <input type="email" name="email" autocomplete="email" required>
+                </label>
+              </div>
+
+              <div class="field-grid">
+                <label class="field">
+                  <span>Company</span>
+                  <input type="text" name="company" autocomplete="organization">
+                </label>
+
+                <label class="field">
+                  <span>Role</span>
+                  <input type="text" name="role" autocomplete="organization-title">
+                </label>
+              </div>
+
+              <label class="field">
+                <span>What workflow do you want to improve?</span>
+                <textarea name="workflow" rows="5" required placeholder="Example: video editing and publication, weekly reporting, data reconciliation, customer intake, internal operations..."></textarea>
+              </label>
+
+              <label class="field">
+                <span>What tools or systems are involved?</span>
+                <textarea name="tools" rows="4" placeholder="Example: Google Drive, Airtable, Descript, Slack, QuickBooks, spreadsheets, CRM, internal databases..."></textarea>
+              </label>
+
+              <div class="field-grid">
+                <label class="field">
+                  <span>How often does this happen?</span>
+                  <select name="frequency">
+                    <option value="">Select one</option>
+                    <option>Daily</option>
+                    <option>Weekly</option>
+                    <option>Monthly</option>
+                    <option>Ad hoc</option>
+                  </select>
+                </label>
+
+                <label class="field">
+                  <span>Timeline</span>
+                  <select name="timeline">
+                    <option value="">Select one</option>
+                    <option>As soon as practical</option>
+                    <option>Within the next month</option>
+                    <option>This quarter</option>
+                    <option>Exploring for later</option>
+                  </select>
+                </label>
+              </div>
+
+              <label class="field">
+                <span>Anything else I should know?</span>
+                <textarea name="message" rows="4"></textarea>
+              </label>
+
+              <button class="pill pill--primary form-submit" type="submit">Send intake</button>
+              <p class="form-note">This form sends your response through Web3Forms so I can reply by email.</p>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__inner">
+          <span>Digital Native</span>
+          <a href="mailto:hello@digital-native.ai">hello@digital-native.ai</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
