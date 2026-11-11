@@ -603,3 +603,10 @@ a { color: inherit; text-decoration: none; }
     gap: 8px;
   }
 }
+
+.section-head__aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
